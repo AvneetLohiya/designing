@@ -18,7 +18,7 @@ function Home() {
                 }}
               >
                 <p className="nav-bar-items-content">Home</p>
-                <p className="nav-bar-items-content">About</p>
+               <p className="nav-bar-items-content">About</p>
 
                 <p className="nav-bar-items-content">Favourltes</p>
                 <p className="nav-bar-items-content">Lifestyle</p>
@@ -137,8 +137,7 @@ function Home() {
             </div>
           </div>
 
-          {/* <div style={{width:"75em"}}>
-        <div style={{display:"flex",justifyContent:"center"}}> */}
+         
           <div
             style={{
               display: "flex",
@@ -173,8 +172,7 @@ function Home() {
               </div>
             </div>
           </div>
-          {/* </div>
-        </div> */}
+         
 
           <div>
             <h1 style={{ paddingTop: "15px" }}>
@@ -350,3 +348,6 @@ function Home() {
 }
 
 export default Home;
+
+
+you have not pushed yet
