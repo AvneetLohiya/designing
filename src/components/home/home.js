@@ -30,15 +30,15 @@ function Home() {
             </div>
           </div>
 
-          <div style={{ display: "flex", gap: "45px" }}>
+          <div style={{ display: "flex", gap: "50px" }}>
             <div className="We-Help-to-Make-Modern">
               <h4>
-                We Help to <br /> Make Modern Interior
+                We Help to Make Modern Interior
               </h4>
               <div className="We-combine-interior-and-extrior">
                 <p>
-                  We combine interior and Exterior design <br />
-                  services and often provide them as a single <br /> solution.It
+                  We combine interior and Exterior design <br/>
+                  services and often provide them as a single <br/> solution.It
                   helps us...
                 </p>
               </div>
@@ -78,13 +78,11 @@ function Home() {
             </div>
           </div>
 
-          {/* <div style={{width:"90em"}} >
-      <div style={{display:"flex",justifyContent:"center"}}> */}
+         
           <div className="Connect-with-us">
             <h2>Connect with us</h2>
           </div>
-          {/* </div>
-      </div> */}
+         
 
           <div className="icons-for-contact-us">
             <img
@@ -152,7 +150,7 @@ function Home() {
               />
             </div>
 
-            <div>
+            <div >
               <h4 className="Hot-deals-for-you">
                 Hot <br /> Deals For You
               </h4>
@@ -175,7 +173,7 @@ function Home() {
          
 
           <div>
-            <h1 style={{ paddingTop: "15px" }}>
+            <h1 style={{ paddingTop: "15px",display:"flex" }}>
               You Might Also Be Interested In..
             </h1>
 
@@ -187,11 +185,11 @@ function Home() {
                 />
               </div>
               <div>
-                {/* <img className="image-of-the-Hall-with-stairs-at-the-cenetr" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTekXowoMVtvokVDLhYY0UNHX9hMKqKYDocLw&usqp=CAU"/> */}
+                
                 <h4 className="LATEST-STORIES">LATEST STORIES</h4>
                 <div className="Premmium-Quality-And-Outstanding-Services">
                   <p>
-                    Premmium Quality And Outstanding <br /> Services
+                    Premmium Quality And Outstanding <br/> Services
                   </p>
                   <button
                     className="get-started-button-in-top-fashion-brands"
@@ -219,16 +217,16 @@ function Home() {
             </div>
 
             <div>
-              <h4 className="Hot-deals-for-you">
-                We provide <br /> Best services
-              </h4>
+              <h1 className=" We-provide-Best-services">
+                We provide Best services
+              </h1>
               <div className="Lorem-ipsum-dolor-sit-amet">
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and typese{" "}
-                  <br /> industry. Lorem Ipsum has been the industry's standard
-                  dummy <br /> text ever since the 1500s, when an unknown
-                  printer took a galley <br /> os type and <br /> scrambled it
-                  to make a type specimen book. It has <br /> survived not only
+                  Lorem Ipsum is simply dummy text of the printing and typese<br/>
+                  industry. Lorem Ipsum has been the industry's standard
+                  dummy <br/> text ever since the 1500s, when an unknown
+                  printer took a galley<br/>of type and  scrambled it
+                  to make a type specimen book. It has<br/>survived not only
                   five.
                 </p>
 
@@ -243,14 +241,9 @@ function Home() {
           </div>
 
           <div style={{ backgroundColor: "rgb(163, 135, 140)" }}>
-           <div style={{display:"flex",gap:"15rem"}}> <h1
-              style={{
-                paddingLeft: "8rem",
-                paddingTop: "5rem",
-                backgroundColor: "rgb(163, 135, 140)",
-                height: "8rem",
-                fontSize: "40px"
-              }}
+           <div style={{display:"flex",gap:"15rem"}}>
+            <h1
+             className="Get-notified-you-can"
             >
               Get notified you can <br />
               still join the waitist
@@ -319,7 +312,7 @@ function Home() {
               />
               </div>
             </div>
-            <div>
+            <div className="footer-content">
               <h3>Home</h3>
               <p>Appirance</p>
               <p>Content</p>
@@ -327,14 +320,14 @@ function Home() {
               <p>Sell</p>
               <p>Guide</p>
             </div>
-            <div>
+            <div className="footer-content" >
               <h3>Company</h3>
               <p>About Us</p>
               <p>FAQ</p>
               <p>Statstic</p>
               <p>Spoke</p>
             </div>
-            <div>
+            <div className="footer-content">
               <h3>Help</h3>
               <p>How it work?</p>
               <p>Help Desk</p>
@@ -350,4 +343,3 @@ function Home() {
 export default Home;
 
 
-you have not pushed yet
