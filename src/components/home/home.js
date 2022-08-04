@@ -3,8 +3,10 @@ import "./home.css";
 
 function Home() {
   return (
+    // this is the div for the main component 
     <div style={{ display: "flex", justifyContent: "center" }}>
       <div className="width-div-for-decor">
+      {/* div for the nav bar */}
         <div className="main-div-of-home-decor-website">
           <div className="main-container-in-nav-bar">
             <div className="container-in-nav-bar-items">
@@ -12,22 +14,21 @@ function Home() {
               <h3>INTERIOR.CO</h3>
               </div>
 
-              <div className="main-div-of-nav-bar-items-content"
-                
-              >
+              <div className="main-div-of-nav-bar-items-content">
                 <p className="nav-bar-items-content">Home</p>
                <p className="nav-bar-items-content">About</p>
 
                 <p className="nav-bar-items-content">Favourltes</p>
                 <p className="nav-bar-items-content">Lifestyle</p>
-
+              
+                {/* this is the button for get start */}
                 <button className="get-started-button  " type="button">
                   Get Started
                 </button>
               </div>
             </div>
           </div>
-
+            {/* this component include image , text, and a input type with button */}
           <div className="We-Help-to-Make-Modern-main-div" >
             <div className="We-Help-to-Make-Modern">
               <h4>
@@ -72,6 +73,8 @@ function Home() {
             </div>
           </div>
 
+         
+         {/* this component includes the five borders which have icons in it */}
          <div className="main-div-of-connect-with-us">
           <div className="Connect-with-us">
             <h2>Connect with us</h2>
@@ -102,6 +105,8 @@ function Home() {
           </div>
           </div>
 
+
+          {/* this component includes text and button and image with bathrrom accesories */}
           <div className="main-div-of-top-fashion-brands-in-the-world"
           >
             <div className="top-fashion-brands-in-the-world">
@@ -131,7 +136,7 @@ function Home() {
             </div>
           </div>
 
-         
+         {/* this component includes  the image and text */}
           <div className="main-div-of-the-image-of-the-office">
         <div className="second-div-of-the-image-of-the-office"
         >
@@ -169,7 +174,7 @@ function Home() {
           </div>
           </div>
          
-
+          {/* this component includes image text and button */}
           <div >
             <h1 className="You-Might-Also-Be-Interested-In"
             >
@@ -201,8 +206,11 @@ function Home() {
             </div>
           </div>
 
+
+
+          {/* this component includes image text and button */}
           <div className="main-div-of-the-image-of-the-two-person-calling">
-          <div>
+          <div className="div-of-image-button-text">
             <div>
               <img
                 className="image-of-the-two-person-calling"
@@ -223,24 +231,26 @@ function Home() {
                   to make a type specimen book. It has<br/>survived not only
                   five.
                 </p></div>
-                
+                <div className="main-div-of-get-started-button-in-We-provide-Best-services"
+                 >
                 <button
                   className="get-started-button-in-We-provide-Best-services"
                   type="button"
                 >
                   Start Now
-                </button></div>
+                </button></div></div>
               </div>
              </div>
 
 
 
 
-
+            {/* this component includes image text and button with input type */}
           <div className="first-main-div-of-Get-notified-you-can" >
            <div className="main-div-of-Get-notified-you-can">
             <div>
-           <div className="merging-div-of-Get-notified-you-can-input-type-enter-your-email-address"> <h1
+          
+           <h1
              className="Get-notified-you-can"
             >
               Get notified you can <br />
@@ -267,18 +277,16 @@ function Home() {
                   </button>
                   </div>
                 </div>
-              </div>
+              {/* </div> */}
             </div>
           </div>
           </div>
 
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              gap: "12rem",
-              backgroundColor: "#f5f5f5",
-            }}
+
+
+          {/* this is the footer which includes home , company and help */}
+          <div className="main-div-of-the-footer"
+            
           >
             <div className="Interior-co">
               <h3>INTERIOR.CO</h3>
@@ -286,7 +294,8 @@ function Home() {
                 Build your site for free and <br />
                 take as long as you need.
               </p>
-              <div style={{display:"flex", gap:"15px"}}>
+              <div className="icons for the footer"
+              >
               <img
                 className="twiter-icon"
                 src="https://cdn-icons-png.flaticon.com/128/126/126720.png"
