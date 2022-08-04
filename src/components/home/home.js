@@ -143,7 +143,7 @@ function Home() {
             </div>
 
             <div className="main-div-of-Hot-deals-for-you"
-            style={{display:"block"}} >
+             >
             <div>
               <h4 className="Hot-deals-for-you">
                 Hot <br /> Deals For You

@@ -583,25 +583,53 @@ padding-left: 2.3rem;
   height: 41px;
  }
 
+ .main-div-of-connect-with-us
+ {
+  display: block;
+ 
+ }
+
+ .icons-for-contact-us
+ {
+  display: block;
+ }
+
  .Connect-with-us
  {
   font-size: 15px;
   display: block;
   align-items: center;
+  
  }
 
- /* .icons-for-contact-us
- {
+ 
+.icons-for-contact-us
+{
   display: block;
- align-items: center;
- } */
-
+}
  .pay-icon
  {
-  height: 30px;
+  height: 20px;
 
-  width: 40px;
+  width: 20px;
+ 
  }
+.pay-icon-Booking-com
+{
+  height: 20px;
+
+  width: 20px;
+ font-size: 8px;
+}
+
+.pay-icon-BuzzFeed
+{
+  height: 20px;
+
+  width: 20px;
+ font-size: 8px;
+}
+
  .main-div-of-connect-with-us
  {
   display: block;
@@ -640,6 +668,10 @@ padding-top: 15px;
     background-color: #f5f5f5;
  
 }
+.second-div-of-the-image-of-the-office
+{
+  display: block;
+}
 
 .image-of-the-office
 {
@@ -647,25 +679,28 @@ padding-top: 15px;
   height: 50vh;
   
 }
+.main-div-of-Hot-deals-for-you
+{
+  display: block;
+}
 
 .Hot-deals-for-you
 {
   text-align: center;
-  display: flex;
-  
-  font-size: 25px;
-  justify-content: center;
-  padding-left: 3.8rem;
-  padding-right: 3rem;
-  text-align: justify;
+    display: block;
+    font-size: 25px;
+    justify-content: center;
+    padding-left: 5rem;
+    padding-right: 4.5rem;
+    text-align: justify;
   
 }
 .Lorem-ipsum-dolor-sit-amet
 {
-  font-size: 12px;
+  font-size: 13px;
   /* margin-bottom: 10px; */
-  color: gray;
-  padding-left: 3.5rem;
+ 
+  /* padding-left: 3rem; */
   /* text-align: justify; */
  
 }
