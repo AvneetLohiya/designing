@@ -4,18 +4,16 @@ import "./home.css";
 function Home() {
   return (
     <div style={{ display: "flex", justifyContent: "center" }}>
-      <div style={{ width: "75em" }}>
-        <div style={{ backgroundColor: "seashel" }}>
+      <div className="width-div-for-decor">
+        <div className="main-div-of-home-decor-website">
           <div className="main-container-in-nav-bar">
             <div className="container-in-nav-bar-items">
+              <div>
               <h3>INTERIOR.CO</h3>
+              </div>
 
-              <div
-                style={{
-                  display: "flex",
-                  marginLeft: "28rem",
-                  paddingTop: "15px",
-                }}
+              <div className="main-div-of-nav-bar-items-content"
+                
               >
                 <p className="nav-bar-items-content">Home</p>
                <p className="nav-bar-items-content">About</p>
@@ -30,7 +28,7 @@ function Home() {
             </div>
           </div>
 
-          <div style={{ display: "flex", gap: "50px" }}>
+          <div className="We-Help-to-Make-Modern-main-div" >
             <div className="We-Help-to-Make-Modern">
               <h4>
                 We Help to Make Modern Interior
@@ -51,14 +49,10 @@ function Home() {
             </div>
           </div>
 
-          <div
-            style={{
-              backgroundColor: "seashell",
-              height: "105px",
-              paddingBottom: "20px",
-            }}
-          >
-            <div style={{ display: "flex" }}>
+          <div className="main-div-of-input-type-enter-your-email">
+            
+         
+            <div className="second-div-of-input-type-enter-your-email">
               <div className="outer-part-image-of-v-icon">
                 <img
                   className="image-of-v-icon"
@@ -78,7 +72,7 @@ function Home() {
             </div>
           </div>
 
-         
+         <div className="main-div-of-connect-with-us">
           <div className="Connect-with-us">
             <h2>Connect with us</h2>
           </div>
@@ -106,9 +100,11 @@ function Home() {
               src="https://cdn-icons-png.flaticon.com/128/196/196565.png"
             />
           </div>
+          </div>
 
-          <div style={{ display: "flex", paddingTop: "4rem", gap: "12rem" }}>
-            <div className="We-Help-to-Make-Modern">
+          <div className="main-div-of-top-fashion-brands-in-the-world"
+          >
+            <div className="top-fashion-brands-in-the-world">
               <h4>
                 Top Fashion <br /> Brands In The World
               </h4>
@@ -136,13 +132,9 @@ function Home() {
           </div>
 
          
-          <div
-            style={{
-              display: "flex",
-              paddingTop: "4rem",
-              backgroundColor: "#f5f5f5",
-            }}
-          >
+          <div className="main-div-of-the-image-of-the-office">
+        <div className="second-div-of-the-image-of-the-office"
+        >
             <div>
               <img
                 className="image-of-the-office"
@@ -150,7 +142,9 @@ function Home() {
               />
             </div>
 
-            <div >
+            <div className="main-div-of-Hot-deals-for-you"
+            style={{display:"block"}} >
+            <div>
               <h4 className="Hot-deals-for-you">
                 Hot <br /> Deals For You
               </h4>
@@ -161,6 +155,8 @@ function Home() {
                   magna aliqua Ut enim ad minim veniam.
                 </p>
               </div>
+              </div>
+              
               <div className="From-fashion-weeks-without-shows-to-brands">
                 <p>
                   From fashion weeks without shows to brands <br /> abandoning
@@ -168,16 +164,19 @@ function Home() {
                   industry into a state of flux
                 </p>
               </div>
-            </div>
+              </div>
+           
+          </div>
           </div>
          
 
-          <div>
-            <h1 style={{ paddingTop: "15px",display:"flex" }}>
+          <div >
+            <h1 className="You-Might-Also-Be-Interested-In"
+            >
               You Might Also Be Interested In..
             </h1>
 
-            <div style={{ display: "flex", paddingTop: "4rem" }}>
+            <div className="main-div-of-LATEST-STORIES">
               <div>
                 <img
                   className="image-of-the-office"
