@@ -183,7 +183,7 @@ function Home() {
 
             <div className="main-div-of-LATEST-STORIES">
              
-             <div>
+             <div  >
               <div className="main-div-of-kitchen-and-dinning-area">
               <div>  <img
                   className="image-of-the-kitchen"
@@ -285,9 +285,9 @@ function Home() {
               still join the waitist
             </h1>
              {/* <div className="hanging-lights-in-get-notified">
-            <img src="https://icon2.cleanpng.com/20180613/jjo/kisspng-chairish-01504-season-gold-hanging-wall-decoration-5b21563e02d5c6.2857339915289114220116.jpg" />
-            </div>   */}
-            
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuQcG8hK3A2JFD0R-719lr0R0dn8KNasnN2g&usqp=CAU" />
+            </div>  
+             */}
             <div className="first-div-of-the-input-type-enter-your-email-address"
               
             >
