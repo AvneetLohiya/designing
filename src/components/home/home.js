@@ -10,7 +10,7 @@ function Home() {
         <div className="main-div-of-home-decor-website">
           <div className="main-container-in-nav-bar">
             <div className="container-in-nav-bar-items">
-              <div>
+<div>
               <h3>INTERIOR.CO</h3>
               </div>
 
@@ -25,14 +25,15 @@ function Home() {
                 <button className="get-started-button  " type="button">
                   Get Started
                 </button>
-              </div>
+              
+              </div> 
             </div>
           </div>
             {/* this component include image , text, and a input type with button */}
           <div className="We-Help-to-Make-Modern-main-div" >
             <div className="We-Help-to-Make-Modern">
               <h4>
-                We Help to Make Modern Interior
+                We Help to <br/>  Make Modern Interior
               </h4>
               <div className="We-combine-interior-and-extrior">
                 <p>
@@ -41,16 +42,7 @@ function Home() {
                   helps us...
                 </p>
               </div>
-            </div>
-            <div>
-              <img
-                className="image-of-interior-of-home"
-                src="https://img.freepik.com/premium-photo/tropical-interior-design-living-room_269031-60.jpg?w=2000"
-              />
-            </div>
-          </div>
-
-          <div className="main-div-of-input-type-enter-your-email">
+              <div className="main-div-of-input-type-enter-your-email">
             
          
             <div className="second-div-of-input-type-enter-your-email">
@@ -69,9 +61,32 @@ function Home() {
                 <button className="button-start" type="button">
                   Start
                 </button>
+                
               </div>
             </div>
           </div>
+
+
+
+            </div>
+           
+            <div  style={{display:"flex"}}>
+             <div><img
+                className="image-of-interior-of-home-decor-kitchen"
+                src="https://assets-news.housing.com/news/wp-content/uploads/2022/01/18122248/Easy-and-simple-kitchen-design-ideas-for-your-home-FB-1200x700-compressed.jpg"
+              /></div>
+           <div>  <img
+                className="image-of-interior-of-home-decor-living-room"
+                src="https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,w_730/project%20prism%2Fcolor%20search%20archive%2Fb3b79ae12612870be67d93ca372f1081b69b2991"
+              /></div> 
+            <div> <img
+                className="image-of-interior-of-home-decor-study-room"
+                src="https://static.toiimg.com/photo/84472203/84472203.jpg?imgsize=110131"
+              /></div> 
+            </div>
+          </div>
+
+          
 
          
          {/* this component includes the five borders which have icons in it */}
