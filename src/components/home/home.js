@@ -183,6 +183,9 @@ function Home() {
                   the traditional schedules. Covid-19 <br /> has thrown the
                   industry into a state of flux
                 </p>
+               <div className="main-div-of-arrow-and-BY-SARA-MCALPINE"
+               > <img className="arrow-icon" src="https://cdn-icons.flaticon.com/png/128/664/premium/664866.png?token=exp=1659776555~hmac=52189693f7c83edc1d7fa39957d99b77"/>
+               <div className="BY-SARA-MCALPINE"><h4>BY SARA MCALPINE 29/27/2020</h4></div> </div>
               </div>
               </div>
            
@@ -293,16 +296,19 @@ function Home() {
            <div className="main-div-of-Get-notified-you-can">
             <div>
           
-           <h1
+          <div style={{display:"flex"}}> <h1
              className="Get-notified-you-can"
             >
               Get notified you can <br />
               still join the waitist
             </h1>
-             {/* <div className="hanging-lights-in-get-notified">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuQcG8hK3A2JFD0R-719lr0R0dn8KNasnN2g&usqp=CAU" />
-            </div>  
-             */}
+             <div className="hanging-lights-in-get-notified">
+            <img className="image-of-light-lamp"  
+            src="https://5.imimg.com/data5/SELLER/Default/2021/11/KN/NF/NK/19342305/bathroom-wall-shelf-250x250.png" />
+            
+            
+            </div>  </div>
+            
             <div className="first-div-of-the-input-type-enter-your-email-address"
               
             >

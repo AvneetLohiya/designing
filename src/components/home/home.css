@@ -69,6 +69,7 @@ background-color: seashell;
 {
   display: flex;
   padding-top:109px;
+  
 }
 
 .get-started-button {
@@ -372,6 +373,34 @@ padding-left: 3rem;
   text-align: justify;
   
 }
+.main-div-of-arrow-and-BY-SARA-MCALPINE
+{
+  display: flex;
+  
+  
+}
+.BY-SARA-MCALPINE
+{
+  color: black;
+  padding-left: 35px;
+  display: flex;
+ 
+  /* padding-bottom: 65px; */
+}
+.arrow-icon
+{
+  width: 27px;
+  border: 1px solid black;
+ height: 2.5rem;
+  display: flex;
+  border-radius: 50px;
+  padding-left: 7px;
+  padding-right: 5px;
+  background-color: #fff;
+  border: none;
+  
+}
+
 .icons-for-contact-us{
   display: flex;
   justify-content: space-between;
@@ -390,8 +419,9 @@ padding-left: 3rem;
   width:  36.5rem;
   padding-top: 45px;
  padding-left: 165px;
- color: black;
+ color: rgb(58, 55, 55);
  text-align: justify;
+ 
 }
 
 .Lorem-ipsum-dolor-sit-amet
@@ -546,7 +576,7 @@ cursor: pointer;
   /* height: 40px; */
   background-color: white;
   border: none;
-  /* padding-top: 6px; */
+  
 }
 
 
@@ -601,10 +631,17 @@ cursor: pointer;
 
 .hanging-lights-in-get-notified
 {
-/* width:65px;
-height:14px; */
+width:65px;
+height:6px;
 padding-top:45px;
 
+
+}
+.image-of-light-lamp
+{
+  width: 27rem;
+  
+  padding-left: 15rem;
 }
 
 .get-started-button-in-We-provide-Best-services
