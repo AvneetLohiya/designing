@@ -747,25 +747,29 @@ padding-left: 2.3rem;
   .container-in-nav-bar-items{
     display: block;
   }
+
+  .main-div-of-home-decor-website
+  {
+    display: block;
+  }
   .We-Help-to-Make-Modern{
-    /* text-align: center; */
+    text-align: center;
     display: block;
     font-size: 15px;
-    /* justify-content: center; */
-    padding-left: 23rem;
-    /* padding-right: 4.5rem; */
-    /* text-align: justify; */
+    width: 50%;
+justify-items: center;
+    
+    padding-left: 28rem;
+    text-align: justify;
+    
   }
   .We-combine-interior-and-extrior{
-    /* text-align: center;
-    display: block;
-    font-size: 17px;
-    text-align: justify; */
+    
 
     font-size: 10px;
   
   
-  /* padding-left: rem; */
+ 
   }
 
 
@@ -782,27 +786,34 @@ padding-left: 2.3rem;
   }
   .image-of-interior-of-home-decor-kitchen
   {
-    width: 70px;
+    width: 81px;
+   
     height: 39vh;
     padding-right: 15px;
-    padding-left: 45px;
+    padding-left: 28rem;
+    display: block;
   }
   .image-of-interior-of-home-decor-living-room
   {
-    width: 70px;
+    width: 81px;
     height: 39vh;
     padding-right: 25px;
-    padding-left: 15px;
+    padding-left: 28rem;
+    display: block;
+    padding-top: 10px;
   }
   .image-of-interior-of-home-decor-study-room
   {
-    width: 70px;
+    width: 81px;
     height: 43vh;
     padding-right: 15px;
-    padding-left: 15px; 
+    padding-left: 28rem; 
+    display: block;
+   
   }
   .div-of-image-of-kitchen-living-room-study{
     justify-content: center;
+    display: block;
 
   }
 
@@ -810,21 +821,22 @@ padding-left: 2.3rem;
   {
     display: block;
     
-    
   }
 
   .second-div-of-input-type-enter-your-email
   {
     justify-content: center;
+   
     /* padding-left: 15px; */
     /* padding-top: 45px; */
   }
 
   .input-type-enter-your-email
   {
-  height: 50px;
+  height: 40px;
     width: 8rem;
     font-size: 13px;
+    
    
     
   }
@@ -833,19 +845,24 @@ padding-left: 2.3rem;
   {
     height: 30px;
     width: 4rem;
-    font-size: 13px;  
+    font-size: 13px; 
+    
+    
   }
 
   .outer-border-of-start-button
   {
     width:73px;
-  height: 41px;
+  height: 38px;
   padding-right: 8px;
+  padding-top: 5px; 
+  
   }
 .outer-part-image-of-v-icon
 {
-  width:73px;
-  height: 41px;
+  width:45px;
+  height: 30px;
+  padding-right: 19px;
  }
 
  .main-div-of-connect-with-us
@@ -863,7 +880,10 @@ padding-left: 2.3rem;
  {
   font-size: 15px;
   display: block;
-  align-items: center;
+  /* align-items: center; */
+  /* justify-content: center; */
+  
+  padding-left: 30rem;
   
  }
 
@@ -877,6 +897,8 @@ padding-left: 2.3rem;
   height: 20px;
 
   width: 20px;
+  padding-left: 35rem;
+  padding-top: 5px;
  
  }
 .pay-icon-Booking-com
@@ -885,6 +907,7 @@ padding-left: 2.3rem;
 
   width: 20px;
  font-size: 8px;
+ padding-left: 35rem;
 }
 
 .pay-icon-BuzzFeed
@@ -893,6 +916,7 @@ padding-left: 2.3rem;
 
   width: 20px;
  font-size: 8px;
+ padding-left: 35rem;
 }
 
  .main-div-of-connect-with-us
