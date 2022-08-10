@@ -112,6 +112,10 @@ background-color: seashell;
     text-align: justify;
   }
 
+  .div-of-image-of-kitchen-living-room-study
+  {
+    display: flex;
+  }
 .image-of-interior-of-home-decor-kitchen
 {
     width: 175px;
@@ -135,10 +139,9 @@ background-color: seashell;
 padding-bottom: 35px;
 padding-left: 12px;
 padding-top: 40px;
-
-
-
 }
+
+
 
 .image-of-interior-of-home-decor-study-room
 {
@@ -639,9 +642,10 @@ padding-top:45px;
 }
 .image-of-light-lamp
 {
-  width: 27rem;
+  width: 15rem;
   
-  padding-left: 15rem;
+  padding-left: 20rem;
+  /* margin-bottom: 25px; */
 }
 
 .get-started-button-in-We-provide-Best-services
@@ -744,13 +748,13 @@ padding-left: 2.3rem;
     display: block;
   }
   .We-Help-to-Make-Modern{
-    text-align: center;
+    /* text-align: center; */
     display: block;
-    font-size: 25px;
-    justify-content: center;
-    padding-left: 5rem;
-    padding-right: 4.5rem;
-    text-align: justify;
+    font-size: 15px;
+    /* justify-content: center; */
+    padding-left: 23rem;
+    /* padding-right: 4.5rem; */
+    /* text-align: justify; */
   }
   .We-combine-interior-and-extrior{
     /* text-align: center;
@@ -758,7 +762,7 @@ padding-left: 2.3rem;
     font-size: 17px;
     text-align: justify; */
 
-    font-size: 13px;
+    font-size: 10px;
   
   
   /* padding-left: rem; */
@@ -776,13 +780,29 @@ padding-left: 2.3rem;
     display: block;
     
   }
-  .image-of-interior-of-home{
-    width: 350px;
-    height: 50vh;
-  padding-right: 68px;
-  background-color: seashell;
-  padding-bottom: 35px;
-  /* padding: 50px; */
+  .image-of-interior-of-home-decor-kitchen
+  {
+    width: 70px;
+    height: 39vh;
+    padding-right: 15px;
+    padding-left: 45px;
+  }
+  .image-of-interior-of-home-decor-living-room
+  {
+    width: 70px;
+    height: 39vh;
+    padding-right: 25px;
+    padding-left: 15px;
+  }
+  .image-of-interior-of-home-decor-study-room
+  {
+    width: 70px;
+    height: 43vh;
+    padding-right: 15px;
+    padding-left: 15px; 
+  }
+  .div-of-image-of-kitchen-living-room-study{
+    justify-content: center;
 
   }
 
