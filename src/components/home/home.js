@@ -140,7 +140,7 @@ function Home() {
             <div>
               <img
                 className="image-of-interior-of-home-with-bathroom-accesories"
-                src="http://cdn.home-designing.com/wp-content/uploads/2019/01/Modern-bathroom-shelving.jpg"
+                src="http://cdn.home-designing.com/wp-content/  uploads/2019/01/Modern-bathroom-shelving.jpg"
               />
             </div>
           </div>
