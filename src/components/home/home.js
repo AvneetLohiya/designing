@@ -140,7 +140,7 @@ function Home() {
             <div>
               <img
                 className="image-of-interior-of-home-with-bathroom-accesories"
-                src="http://cdn.home-designing.com/wp-content/  uploads/2019/01/Modern-bathroom-shelving.jpg"
+                src="https://www.beautifulhomes.com/content/dam/beautifulhomes/images/202207/the-best-shower-designs-for-compact-bathrooms/Feature_corner-bathroom-shower-designs.webp"
               />
             </div>
           </div>

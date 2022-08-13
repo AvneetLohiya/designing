@@ -771,7 +771,8 @@ padding-left: 2.3rem;
   .We-combine-interior-and-extrior{
     
 
-    font-size: 16px;
+    font-size: 13px;
+    /* padding: 1em; */
   
   
  
@@ -892,10 +893,7 @@ padding-left: 2.3rem;
  }
 
  
-.icons-for-contact-us
-{
-  display: block;
-}
+
  .pay-icon
  {
   height: 25px;
@@ -909,8 +907,10 @@ padding-left: 2.3rem;
 {
   height: 25px;
 
-  width: 35px;
- font-size: 15px;
+  width: 30px;
+ font-size: 10px;
+ justify-content: center;
+ justify-items: center;
  /* padding-left: 35rem; */
 }
 
@@ -919,7 +919,7 @@ padding-left: 2.3rem;
   height: 25px;
 
   width: 35px;
- font-size: 15px;
+ font-size: 10px;
  /* padding-left: 35rem; */
 }
 
@@ -937,10 +937,11 @@ padding-left: 2.3rem;
  {
   text-align: center;
     display: block;
-    font-size: 25px;
+    font-size: 15px;
     justify-content: center;
-    padding-left: 5rem;
-    padding-right: 2rem;
+    padding-top: 5em;
+    padding-left: 1em;
+    
     text-align: justify;
  }
 
@@ -948,17 +949,14 @@ padding-left: 2.3rem;
 {
   width: 350px;
   height: 50vh;
-padding-right: 68px;
-background-color: seashell;
-padding-bottom: 35px;
-padding-top: 15px;
+padding: 1em;
 }
 .main-div-of-the-image-of-the-office
 {
   
     display: block;
-        padding-top: 4rem;
-    background-color: #f5f5f5;
+        /* padding-top: 4rem; */
+    /* background-color: #f5f5f5; */
  
 }
 .second-div-of-the-image-of-the-office
@@ -970,6 +968,7 @@ padding-top: 15px;
 {
   width: 350px;
   height: 50vh;
+padding: 1em;
   
 }
 .main-div-of-Hot-deals-for-you
@@ -982,16 +981,17 @@ padding-top: 15px;
   
   text-align: center;
     display: block;
-    font-size: 25px;
-    justify-content: center;
-    padding-left: 3rem;
-    padding-right: 4.5rem;
+    font-size: 18px;
+    /* justify-content: center; */
+    
     text-align: justify;
+    padding: 1em;
   
 }
 .Lorem-ipsum-dolor-sit-amet
 {
   font-size: 13px;
+  padding: 1em;
   /* margin-bottom: 10px; */
  
   /* padding-left: 3rem; */
@@ -1001,14 +1001,13 @@ padding-top: 15px;
 .From-fashion-weeks-without-shows-to-brands
 {
   /* padding-left: 50px; */
-  font-size: 15px;
+  font-size: 10px;
+ padding: 1em;
  
-  height: 14rem;
+  /* height: 14rem; */
 
-  width:  16.2rem;
-  padding-top: 35px;
- padding-left: 65px;
- padding-right: 35px;
+  /* width:  16.2rem; */
+  
  /* text-align: justify; */
 }
 
@@ -1017,6 +1016,7 @@ padding-top: 15px;
  padding-bottom: 15px;
   
  }
+ 
  .You-Might-Also-Be-Interested-In
  {
   display: block;
@@ -1027,8 +1027,7 @@ padding-top: 15px;
     display: block;
     font-size: 25px;
     justify-content: center;
-    padding-left: 3.5rem;
-    padding-right: 4.5rem;
+    
     text-align: justify;
   
 }
