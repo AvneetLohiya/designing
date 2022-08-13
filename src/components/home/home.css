@@ -2,6 +2,15 @@ body{
     background-color: seashell;
 }
 
+h4 {
+  display: block;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
 .main-div-of-home-decor-website
 {
 background-color: seashell;
@@ -10,7 +19,9 @@ background-color: seashell;
 .main-container-in-nav-bar {
   background-color: seashell;
   height: 10rem;
-  display: flex;
+  /* display: flex; */
+  
+  justify-content: space-between;
  
  
   /* justify-content: space-between; */
@@ -18,6 +29,7 @@ background-color: seashell;
 
 .container-in-nav-bar-items {
   display: flex;
+  justify-content: space-between;
   
   /* padding-left: 10rem; */
   /* padding-left: 5rem; */
@@ -39,17 +51,21 @@ background-color: seashell;
 .main-div-of-nav-bar-items-content
 {
   display: flex;
-  gap: 10rem;
+  gap: 1rem;
+  /* padding-left: 12px; */
   /* margin-left: 28rem; */
   padding-top: 15px;
+  justify-items: center;
+  justify-content: center;
 
 }
 
 .main-div-of-input-type-enter-your-email
 {
   background-color: seashell;
-  height: 105px;
-  padding-bottom: 20px;
+  height: 105px; 
+  padding-bottom: 15px;
+ 
   /* display: flex; */
 }
 
@@ -57,6 +73,8 @@ background-color: seashell;
 .second-div-of-input-type-enter-your-email
 {
   display: flex;
+  padding-top:109px;
+  
 }
 
 .get-started-button {
@@ -82,6 +100,7 @@ background-color: seashell;
     /* width: 40rem; */
     font-size: 48px;
     text-align: justify;
+    
    
     
    
@@ -98,24 +117,58 @@ background-color: seashell;
     text-align: justify;
   }
 
-.image-of-interior-of-home
+  .div-of-image-of-kitchen-living-room-study
+  {
+    display: flex;
+  }
+.image-of-interior-of-home-decor-kitchen
 {
-    width: 660px;
-    height: 65vh;
-  padding-right: 68px;
+    width: 175px;
+    height: 49vh;
+  /* padding-right: 68px; */
   background-color: seashell;
   padding-bottom: 35px;
+  padding-left: 40px;
+  padding-top: 85px;
+  
 
-  /* padding-top: 15px; */
+  
+}
+
+.image-of-interior-of-home-decor-living-room
+{
+  width: 170px;
+  height: 49vh;
+/* padding-right: 68px; */
+background-color: seashell;
+padding-bottom: 35px;
+padding-left: 12px;
+padding-top: 40px;
+}
+
+
+
+.image-of-interior-of-home-decor-study-room
+{
+  width: 182px;
+  height: 69vh;
+/* padding-right: 68px; */
+background-color: seashell;
+padding-bottom: 35px;
+padding-left: 12px;
+
+
+
 }
 
 .input-type-enter-your-email
 {
     /* padding-left: 25px; */
     height: 62px;
-    width: 18rem;
+    width: 19rem;
     font-size: 18px;
     border: none;
+    
     
 }
 
@@ -132,15 +185,20 @@ display: flex;
 }
 .button-start
 {
-    height: 40px;
+    height: 38px;
     width: 6rem;  
-    align-items: center;
+    /* align-items: center; */
   background-color: orange;
-  justify-items: center;
+  
+  text-align: center;
+  justify-content: center;
   border: none;
   color: white;
-  font-size: 19px;
+  display: flex;
   cursor: pointer;
+  text-align: center;
+  padding-top: 13px;
+    
 }
 
 
@@ -260,17 +318,57 @@ padding-bottom: 15px;
 
 }
 
+.main-div-of-kitchen-and-dinning-area
+{
+  display: flex;
+  background-color: seashell;
+}
+
 .image-of-the-kitchen
 {
+ width: 210px;
+   height: 42vh;
+ background-color: seashell;
+/* padding-bottom: 10px; */
 
-  
+}
 
-  width: 450px;
-  height: 90vh;
- 
-  
-background-color: #f5f5f5;
+.image-of-the-living-room-area
+{
+  padding-top: 20px;
+ width: 210px;
+   height: 42vh;
+ background-color: seashell;
 padding-bottom: 15px;
+padding-left: 20px;
+
+}
+.image-of-the-dinning-area
+{
+ padding-top: 25px; 
+ width: 210px;
+   height: 42vh;
+ background-color: seashell;
+padding-bottom: 15px;
+padding-left: 20px;
+
+}
+.image-of-the-stair-case
+{
+ width: 210px;
+   height: 42vh;
+ background-color: seashell;
+padding-bottom: 40px;
+
+}
+
+.image-of-the-living-room-with-stair-case
+{
+  width: 550px;
+  height: 65vh;
+ background-color: seashell;
+padding-bottom: 15px;
+padding-left: 3rem;
 
 }
 
@@ -280,10 +378,38 @@ padding-bottom: 15px;
   /* background-color: #f5f5f5; */
   height: 4rem;
   /* width: 40rem; */
-  font-size: 45px;
+  font-size: 38px;
   text-align: justify;
   
 }
+.main-div-of-arrow-and-BY-SARA-MCALPINE
+{
+  display: flex;
+  
+  
+}
+.BY-SARA-MCALPINE
+{
+  color: black;
+  padding-left: 35px;
+  display: flex;
+ 
+  /* padding-bottom: 65px; */
+}
+.arrow-icon
+{
+  width: 27px;
+  border: 1px solid black;
+ height: 2.5rem;
+  display: flex;
+  border-radius: 50px;
+  padding-left: 7px;
+  padding-right: 5px;
+  background-color: #fff;
+  border: none;
+  
+}
+
 .icons-for-contact-us{
   display: flex;
   justify-content: space-between;
@@ -297,13 +423,14 @@ padding-bottom: 15px;
   /* padding-left: 50px; */
   font-size: 20px;
   background-color: rgb(163, 135, 140);
-  height: 16.2rem;
+  height: 10.5em;
 
-  width:  39rem;
+  width:  36.5rem;
   padding-top: 45px;
  padding-left: 165px;
- color: black;
+ color: rgb(58, 55, 55);
  text-align: justify;
+ 
 }
 
 .Lorem-ipsum-dolor-sit-amet
@@ -317,12 +444,19 @@ padding-bottom: 15px;
 }
 .Premmium-Quality-And-Outstanding-Services
 {
-  font-size: 18px;
-  margin-bottom: 15px;
+  /* font-size: 18px;
+  margin-bottom: 7px;
   color: gray;
-  padding-left: 3.5rem;
-  text-align: justify;
+  padding-left: 7.7rem;
+  text-align: justify; */
+
+  font-size: 18px;
+    margin-bottom: 7px;
+    color: gray;
+    padding-left: 7.7rem;
+    text-align: justify;
 }
+
 
 .main-div-of-the-image-of-the-office
 {
@@ -342,6 +476,7 @@ padding-bottom: 15px;
 .main-div-of-Hot-deals-for-you
 {
   display:block;
+  padding-top: 104px;
 }
 
 .main-div-of-top-fashion-brands-in-the-world
@@ -350,26 +485,39 @@ padding-bottom: 15px;
  padding-top: 4rem; 
  gap: 12rem; 
 }
+.main-div-of-You-Might-Also-Be-Interested-In
+{
+  height: 45rem;
+  background-color: seashell;
+}
 
 .You-Might-Also-Be-Interested-In{
 
-padding-top: 15px;
+padding-top: 5px;
 display: flex ;
+
 }
 
 .main-div-of-LATEST-STORIES{
  display: flex;
-  padding-top: 4rem ;
+  padding-top: 45px;
+  
 }
 
 .LATEST-STORIES{
-  padding-left: 3.3rem;
-  /* background-color: #f5f5f5; */
-  height: 5px;
-  /* widweh: 40rem; */
-  font-size: 45px;
-  padding-top: 15rem;
+   
+  /* height: 2.8rem;
+  
+  font-size: 3rem;
+  padding-top: 16rem;
+  padding-left: 7.5rem; */
+  
+  height: 2.8rem;
+   
+    font-size: 3rem;
+    padding-left: 7.5rem;
 }
+
 .main-div-of-the-image-of-the-two-person-calling
 {
   
@@ -407,10 +555,10 @@ padding-bottom: 15px;
 {
   padding-left: 28px;
   height: 50px;
-  width: 20rem;
+  width: 15rem;
   font-size: 15px;
   border: none;
-  border-radius: 10px;
+  /* border-radius: 3px; */
   display: flex;
   justify-content: center;
 }
@@ -434,10 +582,10 @@ cursor: pointer;
 {
   border: 1px solid black;
   width:105px;
-  height: 50.5px;
+  /* height: 40px; */
   background-color: white;
   border: none;
-  padding-top: 12px;
+  
 }
 
 
@@ -455,13 +603,13 @@ cursor: pointer;
 {
   border: 1px solid black;
   width:105px;
-  height: 42px;
+  height: 45px;
   background-color: white;
   border: none;
-  padding-top: 12px;
+  padding-top: 7.5px;
   display: flex;
   justify-content: center;
-  border-radius: 10px;
+  /* border-radius: 1px; */
 }
 
 
@@ -470,6 +618,7 @@ cursor: pointer;
   padding-bottom: 35px;
   text-align: justify;
   /* margin-top: 15px; */
+  
   
   
 }
@@ -491,10 +640,18 @@ cursor: pointer;
 
 .hanging-lights-in-get-notified
 {
-/* width:65px;
-height:14px; */
+width:65px;
+height:6px;
 padding-top:45px;
 
+
+}
+.image-of-light-lamp
+{
+  width: 15rem;
+  
+  padding-left: 20rem;
+  /* margin-bottom: 25px; */
 }
 
 .get-started-button-in-We-provide-Best-services
@@ -539,6 +696,7 @@ padding-left: 2.3rem;
     height: 70px;
     padding-bottom: 20px;
     padding-top: 15px;
+    display: flex;
   
 }
 .second-div-input-type-enter-your-email-address-Get-notified-you-can
@@ -565,8 +723,12 @@ padding-left: 2.3rem;
 }
 .We-Help-to-Make-Modern-main-div{
   display: flex;
-  gap: 50px;
+  gap: 15px;
 }
+/* .three-image-of-interior-of-home-decor
+{
+  display: flex;
+} */
 
 .main-div-of-the-footer
 {
@@ -577,10 +739,11 @@ padding-left: 2.3rem;
     background-color: #f5f5f5;
   
 }
-.icons for the footer
+.icons-for-the-footer
 {
-  display:flex;
-   gap: 15px;
+  display: flex;
+  
+   gap: 7px;
 }
 
 
@@ -590,25 +753,29 @@ padding-left: 2.3rem;
   .container-in-nav-bar-items{
     display: block;
   }
+
+  .main-div-of-home-decor-website
+  {
+    display: block;
+  }
   .We-Help-to-Make-Modern{
     text-align: center;
     display: block;
-    font-size: 25px;
-    justify-content: center;
-    padding-left: 5rem;
-    padding-right: 4.5rem;
+    font-size: 19px;
+    width: 50%;
+    justify-items: center;
+    padding: 1em;
     text-align: justify;
+    
   }
   .We-combine-interior-and-extrior{
-    /* text-align: center;
-    display: block;
-    font-size: 17px;
-    text-align: justify; */
+    
 
     font-size: 13px;
+    /* padding: 1em; */
   
   
-  /* padding-left: rem; */
+ 
   }
 
 
@@ -623,13 +790,34 @@ padding-left: 2.3rem;
     display: block;
     
   }
-  .image-of-interior-of-home{
-    width: 350px;
-    height: 50vh;
-  padding-right: 68px;
-  background-color: seashell;
-  padding-bottom: 35px;
-  /* padding: 50px; */
+  .image-of-interior-of-home-decor-kitchen
+  {
+    width: 82%;
+    height: 73vh;
+    /* padding-right: 15px;
+    padding-left: 28rem; */
+    display: block;
+  }
+  .image-of-interior-of-home-decor-living-room
+  {
+    width: 82%;
+    height: 73vh;
+    padding-left: 2.5em;
+    display: block;
+    /* padding-top: 10px; */
+  }
+  .image-of-interior-of-home-decor-study-room
+  {
+    width: 82%;
+    height: 73vh;
+    /* padding-right: 15px; */
+    padding-left: 2.5em;
+    display: block;
+   
+  }
+  .div-of-image-of-kitchen-living-room-study{
+    justify-content: center;
+    display: block;
 
   }
 
@@ -642,14 +830,18 @@ padding-left: 2.3rem;
   .second-div-of-input-type-enter-your-email
   {
     justify-content: center;
-    padding-left: 15px;
+   
+    padding-left: 4em;
+    /* padding-top: 45px; */
   }
 
   .input-type-enter-your-email
   {
-  height: 50px;
-    width: 8rem;
+  height: 44px;
+    width: 10rem;
     font-size: 13px;
+    
+   
     
   }
 
@@ -657,19 +849,25 @@ padding-left: 2.3rem;
   {
     height: 30px;
     width: 4rem;
-    font-size: 13px;  
+    font-size: 14px; 
+    
+    
+    
   }
 
   .outer-border-of-start-button
   {
     width:73px;
-  height: 41px;
+  height: 38px;
   padding-right: 8px;
+  padding-top: 5px; 
+  
   }
 .outer-part-image-of-v-icon
 {
-  width:73px;
-  height: 41px;
+  width:45px;
+  height: 30px;
+  padding-right: 19px;
  }
 
  .main-div-of-connect-with-us
@@ -688,35 +886,41 @@ padding-left: 2.3rem;
   font-size: 15px;
   display: block;
   align-items: center;
+  justify-content: center;
+  
+  /* padding-left: 30rem; */
   
  }
 
  
-.icons-for-contact-us
-{
-  display: block;
-}
+
  .pay-icon
  {
-  height: 20px;
+  height: 25px;
 
-  width: 20px;
+  width: 30px;
+  /* padding-left: 35rem;
+  padding-top: 5px; */
  
  }
 .pay-icon-Booking-com
 {
-  height: 20px;
+  height: 25px;
 
-  width: 20px;
- font-size: 8px;
+  width: 30px;
+ font-size: 10px;
+ justify-content: center;
+ justify-items: center;
+ /* padding-left: 35rem; */
 }
 
 .pay-icon-BuzzFeed
 {
-  height: 20px;
+  height: 25px;
 
-  width: 20px;
- font-size: 8px;
+  width: 35px;
+ font-size: 10px;
+ /* padding-left: 35rem; */
 }
 
  .main-div-of-connect-with-us
@@ -733,10 +937,11 @@ padding-left: 2.3rem;
  {
   text-align: center;
     display: block;
-    font-size: 25px;
+    font-size: 15px;
     justify-content: center;
-    padding-left: 5rem;
-    padding-right: 2rem;
+    padding-top: 5em;
+    padding-left: 1em;
+    
     text-align: justify;
  }
 
@@ -744,17 +949,14 @@ padding-left: 2.3rem;
 {
   width: 350px;
   height: 50vh;
-padding-right: 68px;
-background-color: seashell;
-padding-bottom: 35px;
-padding-top: 15px;
+padding: 1em;
 }
 .main-div-of-the-image-of-the-office
 {
   
     display: block;
-        padding-top: 4rem;
-    background-color: #f5f5f5;
+        /* padding-top: 4rem; */
+    /* background-color: #f5f5f5; */
  
 }
 .second-div-of-the-image-of-the-office
@@ -766,6 +968,7 @@ padding-top: 15px;
 {
   width: 350px;
   height: 50vh;
+padding: 1em;
   
 }
 .main-div-of-Hot-deals-for-you
@@ -775,18 +978,20 @@ padding-top: 15px;
 
 .Hot-deals-for-you
 {
+  
   text-align: center;
     display: block;
-    font-size: 25px;
-    justify-content: center;
-    padding-left: 3rem;
-    padding-right: 4.5rem;
+    font-size: 18px;
+    /* justify-content: center; */
+    
     text-align: justify;
+    padding: 1em;
   
 }
 .Lorem-ipsum-dolor-sit-amet
 {
   font-size: 13px;
+  padding: 1em;
   /* margin-bottom: 10px; */
  
   /* padding-left: 3rem; */
@@ -796,14 +1001,13 @@ padding-top: 15px;
 .From-fashion-weeks-without-shows-to-brands
 {
   /* padding-left: 50px; */
-  font-size: 15px;
+  font-size: 10px;
+ padding: 1em;
  
-  height: 14rem;
+  /* height: 14rem; */
 
-  width:  16.2rem;
-  padding-top: 35px;
- padding-left: 65px;
- padding-right: 35px;
+  /* width:  16.2rem; */
+  
  /* text-align: justify; */
 }
 
@@ -812,6 +1016,7 @@ padding-top: 15px;
  padding-bottom: 15px;
   
  }
+ 
  .You-Might-Also-Be-Interested-In
  {
   display: block;
@@ -822,8 +1027,7 @@ padding-top: 15px;
     display: block;
     font-size: 25px;
     justify-content: center;
-    padding-left: 3.5rem;
-    padding-right: 4.5rem;
+    
     text-align: justify;
   
 }
@@ -909,13 +1113,13 @@ text-align: center;
     /* padding-right: 4.5rem; */
     text-align: justify;
 }
-.hanging-lights-in-get-notified
+/* .hanging-lights-in-get-notified
 {
-  /* display: block; */
+ 
   width:15px;
 height:25px;
 padding-right: 35px;
-}
+} */
 
 .first-div-of-the-input-type-enter-your-email-address
 {
@@ -930,6 +1134,8 @@ padding-right: 35px;
     padding-right: 15px;
     padding-left: 25px;
 }
-
+.div-of-image-button-text{
+  display: block;
+}
 
 }
