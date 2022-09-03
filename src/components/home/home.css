@@ -38,6 +38,7 @@ background-color: seashell;
   
 }
 
+
 .nav-bar-items-content {
   display: flex;
   gap: 25px;
@@ -758,6 +759,9 @@ padding-left: 2.3rem;
   {
     display: block;
   }
+
+  
+  
   .We-Help-to-Make-Modern{
     text-align: center;
     display: block;
@@ -1011,13 +1015,24 @@ padding: 1em;
  /* text-align: justify; */
 }
 
+.main-div-of-You-Might-Also-Be-Interested-In
+{
+  display: block;
+}
+
 .main-div-of-LATEST-STORIES{
  display: block;
- padding-bottom: 15px;
+ /* padding-bottom: 15px; */
   
  }
  
  .You-Might-Also-Be-Interested-In
+ {
+  display: block;
+  font-size: 15px;
+  padding: 1em;
+ }
+ /* .main-div-of-kitchen-and-dinning-area
  {
   display: block;
  }
@@ -1035,107 +1050,40 @@ padding: 1em;
 .image-of-the-kitchen
 {
 
-  width: 350px;
-  height: 50vh;
+  width: 82%;
+    height: 73vh;
   
 }
- 
-.Premmium-Quality-And-Outstanding-Services
+.image-of-the-dinning-area
 {
-  font-size: 13px;
+  width: 82%;
+  height: 73vh;
+  padding: 1em;
+}
+.image-of-the-stair-case
+{
+  display: block;
+  width: 82%;
+  height: 73vh;
+  padding: 1em; 
+
+}
+.image-of-the-living-room-area
+{
+  display: block;
+  width: 82%;
+  height: 73vh;
+  padding: 1em; 
 }
 
-.get-started-button-in-top-fashion-brands
-{
-  height: 30px;
-    width: 5rem;
-    font-size: 11px;  
-}
 .main-div-of-the-image-of-the-two-person-calling
 {
   display: block;
+  
 }
-
 .image-of-the-two-person-calling
-{
-  width: 350px;
-  height: 50vh;
-}
-.We-provide-Best-services
-{
-text-align: center;
-    display: block;
-    font-size: 25px;
-    justify-content: center;
-    padding-left: 3rem;
-    padding-right: 4.5rem;
-    text-align: justify;
-    padding-bottom: 15px;
-}
-.main-div-of-We-provide-Best-services
-{
-  display: block;
-}
-
-.Lorem-Ipsum-is-simply-dummy-text-of-the-printing
-{
-  font-size: 13px;
-  /* text-align: justify; */
-  padding-right: 40px;
-}
-.get-started-button-in-We-provide-Best-services
-{
-  height: 30px;
-    width: 5rem;
-    font-size: 11px;  
-    text-align: center;
-    
-    display: block;
-
-}
-
-.first-main-div-of-Get-notified-you-can
-{
-  display: flex;
-}
-
-.main-div-of-Get-notified-you-can
-{
-  display: flex;
-}
-.Get-notified-you-can
-{
-  /* text-align: center; */
-    display: block;
-    font-size: 20px;
-    /* justify-content: center; */
-    padding-left: 3.5rem;
-    /* padding-right: 4.5rem; */
-    text-align: justify;
-}
-/* .hanging-lights-in-get-notified
-{
- 
-  width:15px;
-height:25px;
-padding-right: 35px;
+{ ./
+  display: block
+  ;
 } */
-
-.first-div-of-the-input-type-enter-your-email-address
-{
-  display: block;
-}
-
-.input-type-enter-your-email-address
-{
-  height: 40px;
-    width: 8rem;
-    font-size: 12px;
-    padding-right: 15px;
-    padding-left: 25px;
-}
-.div-of-image-button-text{
-  display: block;
-}
-
 }

@@ -10,8 +10,8 @@ function Home() {
         <div className="main-div-of-home-decor-website">
           <div className="main-container-in-nav-bar">
             <div className="container-in-nav-bar-items">
-              <div>
-                <h3>INTERIOR.CO</h3>
+              <div >
+                <h3 >INTERIOR.CO</h3>
               </div>
 
               <div className="main-div-of-nav-bar-items-content">
@@ -201,7 +201,7 @@ function Home() {
               <div>
                 <div className="main-div-of-kitchen-and-dinning-area">
                   <div>
-                    {" "}
+                    
                     <img
                       className="image-of-the-kitchen"
                       src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/kitchen-decor-ideas-light-fixtures-1580421054.jpg"
