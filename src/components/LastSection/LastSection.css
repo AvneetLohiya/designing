@@ -1,0 +1,128 @@
+.first-main-div-of-Get-notified-you-can
+{
+  background-color: rgb(163, 135, 140) ;
+}
+.first-div-of-the-input-type-enter-your-email-address
+{
+  
+    padding-Left: 8rem;
+    background-color: rgb(163, 135, 140);
+    height: 70px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+    display: flex;
+  
+}
+.second-div-input-type-enter-your-email-address-Get-notified-you-can
+{
+ display: flex ;
+}
+.main-div-of-Get-notified-you-can
+{
+  display: flex;
+  gap: 15rem;
+}
+.Get-notified-you-can
+{
+  padding-left: 8rem;
+  padding-top: 5rem,;
+  background-color: rgb(163, 135, 140);
+  height: 8rem;
+  font-size: 40px;
+  text-align: justify;
+ 
+}
+
+.hanging-lights-in-get-notified
+{
+width:65px;
+height:6px;
+padding-top:45px;
+
+
+}
+.image-of-light-lamp
+{
+  width: 15rem;
+  
+  padding-left: 20rem;
+  /* margin-bottom: 25px; */
+}
+
+
+
+.input-type-enter-your-email-address
+{
+  padding-left: 28px;
+  height: 50px;
+  width: 15rem;
+  font-size: 15px;
+  border: none;
+  /* border-radius: 3px; */
+  display: flex;
+  justify-content: center;
+}
+
+.button-start-trial
+{
+  height: 40px;
+  width: 6rem;  
+  align-items: center;
+background-color: orange;
+justify-items: center;
+border: none;
+color: white;
+font-size: 14px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+
+
+
+
+
+.outer-border-of-start-trial-button
+{
+  border: 1px solid black;
+  width:105px;
+  height: 45px;
+  background-color: white;
+  border: none;
+  padding-top: 7.5px;
+  display: flex;
+  justify-content: center;
+  /* border-radius: 1px; */
+}
+
+
+body{
+  background-color: seashell;
+}
+
+h4 {
+display: block;
+margin-block-start: 0em;
+margin-block-end: 0em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+font-weight: bold;
+}
+
+.main-div-of-home-decor-website
+{
+background-color: seashell;
+}
+
+
+.main-div-of-header-section
+{
+  display: flex;
+  justify-content: center;
+
+}
+
+.width-div-for-decor
+{
+  width: 75em;
+}

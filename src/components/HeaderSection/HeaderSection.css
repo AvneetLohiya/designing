@@ -1,0 +1,192 @@
+.width-div-for-decor
+{
+  width: 75em;
+}
+.main-div-of-header-section
+{
+  display: flex;
+  justify-content: center;
+}
+
+
+.We-Help-to-Make-Modern
+{
+    /* padding-left: 8rem; */
+    background-color: seashell;
+    /* height: 10rem; */
+    /* width: 40rem; */
+    font-size: 74px;
+    text-align: justify;
+   
+    }
+.we-help-to-make-in-header-section
+{
+  line-height: 5rem;
+}
+
+.div-of-image-of-kitchen-living-room-study
+{
+  display: flex;
+}
+.image-of-interior-of-home-decor-kitchen
+{
+  width: 175px;
+  height: 49vh;
+/* padding-right: 68px; */
+background-color: seashell;
+padding-bottom: 35px;
+padding-left: 40px;
+padding-top: 85px;
+
+
+
+}
+
+.image-of-interior-of-home-decor-living-room
+{
+width: 170px;
+height: 49vh;
+/* padding-right: 68px; */
+background-color: seashell;
+padding-bottom: 35px;
+padding-left: 12px;
+padding-top: 40px;
+}
+
+
+
+.image-of-interior-of-home-decor-study-room
+{
+width: 182px;
+height: 69vh;
+/* padding-right: 68px; */
+background-color: seashell;
+padding-bottom: 35px;
+padding-left: 12px;
+
+
+
+}
+
+
+.input-type-enter-your-email
+{
+    /* padding-left: 25px; */
+    height: 62px;
+    width: 19rem;
+    font-size: 18px;
+    border: none;
+    
+    
+}
+
+
+.image-of-v-icon
+{
+    width: 25px;
+
+height: 25px;
+padding-left: 35px;
+justify-content: center;
+display: flex;
+
+}
+.button-start
+{
+    height: 46px;
+    width: 6.5rem;  
+    /* align-items: center; */
+  background-color: orange;
+  
+  text-align: center;
+  justify-content: center;
+  border: none;
+  color: white;
+  display: flex;
+  cursor: pointer;
+  text-align: center;
+  padding-top: 13px;
+  justify-items: center;
+  font-size: 18px;
+    
+}
+
+
+.We-combine-interior-and-extrior
+{
+ font-size: 22px;
+  
+  /* margin-bottom: 15px; */
+  color: gray;
+  text-align: justify;
+  display: flex;
+  line-height:29px;
+  
+}
+
+.We-Help-to-Make-Modern-main-div{
+    display: flex;
+    gap: 4.5rem;
+    height: 37rem;
+  }
+
+
+
+  .main-div-of-input-type-enter-your-email
+{
+  background-color: seashell;
+  height: 105px; 
+  padding-bottom: 15px;
+ 
+  /* display: flex; */
+}
+
+
+.second-div-of-input-type-enter-your-email
+{
+  display: flex;
+  padding-top:109px;
+  
+}
+
+.outer-part-image-of-v-icon
+{
+  border: 1px solid black;
+  width:105px;
+  height: 50.5px;
+  background-color: white;
+  border: none;
+  padding-top: 12px;
+}
+
+.outer-border-of-start-button
+{
+  border: 1px solid black;
+  width:105px;
+  /* height: 40px; */
+  background-color: white;
+  border: none;
+  padding: .56rem;
+  
+  
+}
+
+
+
+/* body{
+  background-color: black;
+} */
+
+h4 {
+display: block;
+margin-block-start: 0em;
+margin-block-end: 0em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+font-weight: bold;
+}
+
+.main-div-of-home-decor-website
+{
+background-color: seashell;
+}

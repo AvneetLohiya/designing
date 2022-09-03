@@ -1,0 +1,86 @@
+.main-div-of-top-fashion-brands-in-the-world
+{
+ display: flex; 
+ padding-top: 4rem; 
+ gap: 12rem; 
+}
+
+.top-fashion-brands-in-the-world
+{
+    /* padding-left: 8rem; */
+    background-color: seashell;
+    /* height: 10rem; */
+    /* width: 40rem; */
+    font-size: 74px;
+    text-align: justify;
+    line-height: 5rem;
+  }
+
+  .We-combine-interior-and-extrior
+{
+  font-size: 20px;
+  /* margin-bottom: 15px; */
+  color: gray;
+  text-align: justify;
+  display: flex;
+  
+}
+
+
+.get-started-button-in-top-fashion-brands
+{
+  display: flex;
+  height: 40px;
+  width: 7rem;
+  align-items: center;
+  background-color: orange;
+  justify-items: center;
+  /* margin-left: 3rem; */
+  border: none;
+  padding-left: 15px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+
+}
+
+.image-of-interior-of-home-with-bathroom-accesories
+{
+  
+  width: 480px;
+  height: 70vh;
+  /* padding-right: 80px; */
+background-color: seashell;
+padding-bottom: 15px;
+
+}
+
+
+
+body{
+  background-color: seashell;
+}
+
+h4 {
+display: block;
+margin-block-start: 0em;
+margin-block-end: 0em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+font-weight: bold;
+}
+
+.main-div-of-home-decor-website
+{
+background-color: seashell;
+}
+
+.main-div-of-header-section
+{
+  display: flex;
+  justify-content: center;
+}
+
+.width-div-for-decor{
+  width: 75em;
+}

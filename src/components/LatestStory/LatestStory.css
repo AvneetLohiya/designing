@@ -1,0 +1,159 @@
+.main-div-of-You-Might-Also-Be-Interested-In
+{
+  height: 45rem;
+  background-color: seashell;
+}
+
+.You-Might-Also-Be-Interested-In{
+
+padding-top: 5px;
+display: flex ;
+
+}
+
+.main-div-of-LATEST-STORIES{
+ display: flex;
+  padding-top: 45px;
+  
+}
+
+.LATEST-STORIES{
+   
+  /* height: 2.8rem;
+  
+  font-size: 3rem;
+  padding-top: 16rem;
+  padding-left: 7.5rem; */
+  
+  height: 2.8rem;
+   
+    font-size: 3rem;
+    padding-left: 7.5rem;
+}
+
+
+
+.main-div-of-kitchen-and-dinning-area
+{
+  display: flex;
+  background-color: seashell;
+}
+
+.image-of-the-kitchen
+{
+ width: 210px;
+   height: 42vh;
+ background-color: seashell;
+/* padding-bottom: 10px; */
+
+}
+
+.image-of-the-living-room-area
+{
+  padding-top: 20px;
+ width: 210px;
+   height: 42vh;
+ background-color: seashell;
+padding-bottom: 15px;
+padding-left: 20px;
+
+}
+.image-of-the-dinning-area
+{
+ padding-top: 25px; 
+ width: 210px;
+   height: 42vh;
+ background-color: seashell;
+padding-bottom: 15px;
+padding-left: 20px;
+
+}
+.image-of-the-stair-case
+{
+ width: 210px;
+   height: 42vh;
+ background-color: seashell;
+padding-bottom: 40px;
+
+}
+
+.image-of-the-living-room-with-stair-case
+{
+  width: 550px;
+  height: 65vh;
+ background-color: seashell;
+padding-bottom: 15px;
+padding-left: 3rem;
+
+}
+
+
+
+
+
+
+
+
+
+.Premmium-Quality-And-Outstanding-Services
+{
+  /* font-size: 18px;
+  margin-bottom: 7px;
+  color: gray;
+  padding-left: 7.7rem;
+  text-align: justify; */
+
+  font-size: 18px;
+    margin-bottom: 7px;
+    color: gray;
+    padding-left: 7.7rem;
+    text-align: justify;
+}
+
+.get-started-button-in-top-fashion-brands
+{
+  display: flex;
+  height: 40px;
+  width: 7rem;
+  align-items: center;
+  background-color: orange;
+  justify-items: center;
+  /* margin-left: 3rem; */
+  border: none;
+  padding-left: 15px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+
+}
+
+
+
+body{
+  background-color: seashell;
+}
+
+h4 {
+display: block;
+margin-block-start: 0em;
+margin-block-end: 0em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+font-weight: bold;
+}
+
+.main-div-of-home-decor-website
+{
+background-color: seashell;
+}
+
+
+.main-div-of-header-section
+{
+  display: flex;
+  justify-content: center;
+}
+
+.width-div-for-decor{
+  width: 75em;
+}
