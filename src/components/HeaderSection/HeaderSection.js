@@ -50,7 +50,7 @@ const HeaderSection = () => {
               </div>
             </div>
 
-            <div className="div-of-image-of-kitchen-living-room-study" 
+            {/* <div className="div-of-image-of-kitchen-living-room-study" 
            >
               <div>
                 <img
@@ -72,7 +72,7 @@ const HeaderSection = () => {
                   src="https://static.toiimg.com/photo/84472203/84472203.jpg?imgsize=110131"
                 />
               </div>
-            </div>
+            </div> */}
           </div>
 
 

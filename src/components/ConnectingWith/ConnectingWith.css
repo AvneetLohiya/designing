@@ -115,3 +115,18 @@ background-color: seashell;
   height: 15rem;
   /* width: 75.5rem; */
 }
+
+
+
+
+@media (min-width:320px) and (max-width:420)
+{
+  .width-div-for-decor
+  {
+    width: 100%;
+  }
+  .main-div-of-header-section
+  {
+    display: block;
+  }
+}

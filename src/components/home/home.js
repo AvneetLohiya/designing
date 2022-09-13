@@ -15,18 +15,18 @@ function Home() {
     
          <>
 
-          <Navbar/>
+          {/* <Navbar/> */}
           
           
      
           <HeaderSection/>
-          <ConnectingWith/>
+          {/* <ConnectingWith/>
           <TopFashion/>
           <HotDeals/>
           <LatestStory/>
           <BestServices/>
           <LastSection/>
-          <Footer/>
+          <Footer/> */}
           
          
          

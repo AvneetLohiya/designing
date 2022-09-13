@@ -1,13 +1,14 @@
 .main-div-of-You-Might-Also-Be-Interested-In
 {
-  height: 45rem;
+  height: 60rem;
   background-color: seashell;
 }
 
 .You-Might-Also-Be-Interested-In{
 
-padding-top: 5px;
+padding-top: 70px;
 display: flex ;
+font-size: 50px;
 
 }
 
@@ -41,8 +42,8 @@ display: flex ;
 
 .image-of-the-kitchen
 {
- width: 210px;
-   height: 42vh;
+  width: 235px;
+  height: 49vh;
  background-color: seashell;
 /* padding-bottom: 10px; */
 
@@ -51,8 +52,8 @@ display: flex ;
 .image-of-the-living-room-area
 {
   padding-top: 20px;
- width: 210px;
-   height: 42vh;
+  width: 235px;
+  height: 49vh;
  background-color: seashell;
 padding-bottom: 15px;
 padding-left: 20px;
@@ -61,8 +62,8 @@ padding-left: 20px;
 .image-of-the-dinning-area
 {
  padding-top: 25px; 
- width: 210px;
-   height: 42vh;
+ width: 235px;
+  height: 49vh;
  background-color: seashell;
 padding-bottom: 15px;
 padding-left: 20px;
@@ -70,8 +71,8 @@ padding-left: 20px;
 }
 .image-of-the-stair-case
 {
- width: 210px;
-   height: 42vh;
+  width: 235px;
+  height: 49vh;
  background-color: seashell;
 padding-bottom: 40px;
 
@@ -79,11 +80,11 @@ padding-bottom: 40px;
 
 .image-of-the-living-room-with-stair-case
 {
-  width: 550px;
-  height: 65vh;
+  width: 582px;
+  height: 72vh;
  background-color: seashell;
 padding-bottom: 15px;
-padding-left: 3rem;
+padding-left: 7.8rem;
 
 }
 
@@ -156,4 +157,18 @@ background-color: seashell;
 
 .width-div-for-decor{
   width: 75em;
+}
+
+
+
+@media (min-width:320px) and (max-width:420)
+{
+  .width-div-for-decor
+  {
+    width: 100%;
+  }
+  .main-div-of-header-section
+  {
+    display: block;
+  }
 }

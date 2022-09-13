@@ -84,3 +84,19 @@ background-color: seashell;
 .width-div-for-decor{
   width: 75em;
 }
+
+
+
+
+
+@media (min-width:320px) and (max-width:420)
+{
+  .width-div-for-decor
+  {
+    width: 100%;
+  }
+  .main-div-of-header-section
+  {
+    display: block;
+  }
+}

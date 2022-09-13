@@ -49,7 +49,7 @@ padding-bottom: 15px;
 .BY-SARA-MCALPINE
 {
   color: black;
-  padding-left: 35px;
+  padding-left: 18px;
   display: flex;
  
   /* padding-bottom: 65px; */
@@ -125,4 +125,19 @@ background-color: seashell;
 .width-div-for-decor
 {
   width: 75em;
+}
+
+
+
+
+@media (min-width:320px) and (max-width:420)
+{
+  .width-div-for-decor
+  {
+    width: 100%;
+  }
+  .main-div-of-header-section
+  {
+    display: block;
+  }
 }

@@ -15,10 +15,10 @@
 .image-of-the-two-person-calling
 {
   width: 520px;
-  height: 70vh;
+  height: 84vh;
  /* padding-left: 8rem; */
 background-color: #f5f5f5;
-padding-bottom: 15px;
+padding-bottom: 60px;
 }
 .Lorem-Ipsum-is-simply-dummy-text-of-the-printing
 {
@@ -27,7 +27,16 @@ padding-bottom: 15px;
   color: gray;
   padding-left: 2.8rem;
   text-align: justify;
+  padding-bottom: 21px;
+    padding-top: 3px;
+}
  
+
+
+
+.main-div-of-We-provide-Best-services
+{
+  padding-left: 48px;
 }
 
 .get-started-button-in-We-provide-Best-services
@@ -87,4 +96,17 @@ background-color: seashell;
 {
   display: flex;
   justify-content: center;
+}
+
+
+@media (min-width:320px) and (max-width:420)
+{
+  .width-div-for-decor
+  {
+    width: 100%;
+  }
+  .main-div-of-header-section
+  {
+    display: block;
+  }
 }

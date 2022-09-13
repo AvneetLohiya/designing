@@ -48,25 +48,25 @@ const Footer = () => {
               </div>
             </div>
             <div className="footer-content">
-              <h3>Home</h3>
-              <p>Appirance</p>
-              <p>Content</p>
-              <p>How it work?</p>
-              <p>Sell</p>
-              <p>Guide</p>
+              <h3 className='Home-section-of-the-footer'>Home</h3>
+              <p className='Appirance'>Appirance</p>
+              <p className='Appirance'>Content</p>
+              <p className='Appirance'>How it work?</p>
+              <p className='Appirance'>Sell</p>
+              <p className='Appirance'>Guide</p>
             </div>
             <div className="footer-content">
-              <h3>Company</h3>
-              <p>About Us</p>
-              <p>FAQ</p>
-              <p>Statstic</p>
-              <p>Spoke</p>
+              <h3 className='Home-section-of-the-footer'>Company</h3>
+              <p className='Appirance'>About Us</p>
+              <p className='Appirance'>FAQ</p>
+              <p className='Appirance'>Statstic</p>
+              <p className='Appirance'>Spoke</p>
             </div>
             <div className="footer-content">
-              <h3>Help</h3>
-              <p>How it work?</p>
-              <p>Help Desk</p>
-              <p>Program</p>
+              <h3 className='Home-section-of-the-footer'>Help</h3>
+              <p className='Appirance'>How it work?</p>
+              <p className='Appirance'>Help Desk</p>
+              <p className='Appirance'>Program</p>
             </div>
           </div>
 

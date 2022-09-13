@@ -126,7 +126,7 @@ display: flex;
 
 .We-Help-to-Make-Modern-main-div{
     display: flex;
-    gap: 4.5rem;
+    gap: 4.7rem;
     height: 37rem;
   }
 
@@ -189,4 +189,118 @@ font-weight: bold;
 .main-div-of-home-decor-website
 {
 background-color: seashell;
+}
+
+
+
+
+
+@media (min-width:320px) and (max-width:420px)
+{
+
+ 
+  .main-div-of-header-section
+  {
+    display: block;
+  }
+
+  .div-of-image-of-kitchen-living-room-study
+  {
+    display: block;
+  }
+
+  .button-start
+  {
+    width: 100%;
+    display: block;
+    padding-top: 0px;
+  }
+
+  .image-of-v-icon
+  {
+    display: block;
+    padding-left: 0px;
+    /* width: 100%; */
+  }
+
+  .We-combine-interior-and-extrior
+  {
+    display: block;
+    padding-left: 33px;
+    font-size: 15px;
+    
+  }
+
+  .We-Help-to-Make-Modern-main-div
+  {
+    display: block;
+  }
+
+  .second-div-of-input-type-enter-your-email
+  {
+    display: block;
+    padding-top:0px;
+  }
+
+.width-div-for-decor
+{
+  width: 100%;
+  padding-left: 0px;
+}
+ .image-of-interior-of-home-decor-kitchen
+ {
+  width: 100%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+
+ }
+
+ .image-of-interior-of-home-decor-living-room
+ {
+  width: 100%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+ }
+
+ .image-of-interior-of-home-decor-study-room
+ {
+  width: 100%;
+  padding-bottom: 0px;
+  padding-left: 0px;
+ }
+
+ .input-type-enter-your-email
+ {
+  width: 100%;
+ }
+
+ 
+
+ .we-help-to-make-in-header-section
+ {
+  line-height: 3rem;
+    font-size: 35px;
+    padding: 1em;
+ }
+
+ .main-div-of-input-type-enter-your-email
+ {
+  padding-bottom: 0px;
+ }
+
+ .outer-part-image-of-v-icon
+ {
+  width: 100%;
+
+  padding-top: 0px;
+ }
+
+ .outer-border-of-start-button
+ {
+  width: 100%;
+  padding: 0px;
+ }
+ 
 }
