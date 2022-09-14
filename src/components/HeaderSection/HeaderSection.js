@@ -30,6 +30,8 @@ const HeaderSection = () => {
               </div>
               <div className="main-div-of-input-type-enter-your-email">
                 <div className="second-div-of-input-type-enter-your-email">
+
+                <div className='v-icon-and-input-type'>
                   <div className="outer-part-image-of-v-icon">
                     <img
                       className="image-of-v-icon"
@@ -40,7 +42,7 @@ const HeaderSection = () => {
                     className="input-type-enter-your-email"
                     type="text"
                     placeholder="Enter your email"
-                  />
+                  /></div>
                   <div className="outer-border-of-start-button">
                     <button className="button-start" type="button">
                       Start
@@ -50,7 +52,7 @@ const HeaderSection = () => {
               </div>
             </div>
 
-            {/* <div className="div-of-image-of-kitchen-living-room-study" 
+            <div className="div-of-image-of-kitchen-living-room-study" 
            >
               <div>
                 <img
@@ -72,7 +74,7 @@ const HeaderSection = () => {
                   src="https://static.toiimg.com/photo/84472203/84472203.jpg?imgsize=110131"
                 />
               </div>
-            </div> */}
+            </div>
           </div>
 
 
