@@ -20,11 +20,11 @@ function Home() {
           
      
           <HeaderSection/>
-          {/* <ConnectingWith/>
+          <ConnectingWith/>
           <TopFashion/>
           <HotDeals/>
-          <LatestStory/>
-          <BestServices/>
+          {/* <LatestStory/> */}
+          {/* <BestServices/>
           <LastSection/>
           <Footer/> */}
           

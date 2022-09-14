@@ -130,7 +130,7 @@ background-color: seashell;
 
 
 
-@media (min-width:320px) and (max-width:420)
+@media (min-width:320px) and (max-width:420px)
 {
   .width-div-for-decor
   {
@@ -139,5 +139,61 @@ background-color: seashell;
   .main-div-of-header-section
   {
     display: block;
+  }
+  
+  .main-div-of-the-image-of-the-office
+  {
+    display: block;
+    padding-top: 0rem;
+  }
+
+  .second-div-of-the-image-of-the-office
+  {
+    display: block;
+  }
+
+  .Hot-deals-for-you
+  {
+    padding-left: 1rem;
+    font-size: 35px;
+  }
+
+  /* .main-div-of-arrow-and-BY-SARA-MCALPINE
+  {
+    display: block;
+  } */
+
+  .BY-SARA-MCALPINE
+  {
+    display: block;
+    font-size: 20px;
+  }
+
+  .Lorem-ipsum-dolor-sit-amet
+  {
+    padding-left: 0rem;
+  text-align: justify;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding: 1em;
+  }
+
+  .From-fashion-weeks-without-shows-to-brands
+  {
+    width:  100%;
+    padding-top: 0px;
+   padding-left: 0;
+   color: rgb(58, 55, 55);
+   text-align: justify;
+   font-size: 17.4px;
+  }
+  .image-of-the-office
+  {
+    width: 100%;
+  }
+  .arrow-icon
+  {
+    width: 22px;
+    height: 2rem;
   }
 }

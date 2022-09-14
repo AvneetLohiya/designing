@@ -21,8 +21,8 @@ const TopFashion = () => {
               </h4>
               <div className="We-combine-interior-and-extrior">
                 <p>
-                  Lorem ipsum dolor sit amet,consectetur adipiscing elit, <br />
-                  sed to eiusmod tempor incididunt ut labore et dolore <br />{" "}
+                  Lorem ipsum dolor sit amet,consectetur adipiscing elit,
+                  sed to eiusmod tempor incididunt ut labore et dolore 
                   magna aliqua Ut enim ad minim veniam.{" "}
                 </p>
               </div>

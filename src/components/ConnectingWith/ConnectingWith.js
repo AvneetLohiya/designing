@@ -9,6 +9,9 @@ const ConnectingWith = () => {
     <div className='main-div-of-header-section'>
       <div className="width-div-for-decor">
         {/* div for the nav bar in home decor theme */}
+
+        <div>
+
         <div className="main-div-of-home-decor-website"></div>
     
 
@@ -31,18 +34,19 @@ const ConnectingWith = () => {
               <div className="pay-icon-Booking-com">
                 <h3>Booking.com</h3>
               </div>
+              <div>
               <img
                 className="pay-icon"
                 src="https://cdn-icons-png.flaticon.com/128/179/179457.png"
-              />
-              <img
+              /></div>
+             <div> <img
                 className="pay-icon"
                 src="https://cdn-icons-png.flaticon.com/128/196/196565.png"
-              />
+              /></div>
             </div>
           </div>
 
-
+</div>
           </div>
           </div>
     </div>

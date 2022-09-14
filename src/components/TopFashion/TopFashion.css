@@ -89,7 +89,7 @@ background-color: seashell;
 
 
 
-@media (min-width:320px) and (max-width:420)
+@media (min-width:320px) and (max-width:420px)
 {
   .width-div-for-decor
   {
@@ -99,4 +99,37 @@ background-color: seashell;
   {
     display: block;
   }
+
+  .main-div-of-top-fashion-brands-in-the-world
+  {
+    display: block;
+    padding-top: 0rem;
+  }
+
+  .get-started-button-in-top-fashion-brands
+  {
+    display: block;
+    width: 100%;
+    padding-left: 0px;
+  }
+  .image-of-interior-of-home-with-bathroom-accesories
+  {
+    width: 100%;
+  }
+  .top-fashion-brands-in-the-world
+  {
+    font-size: 40px;
+    line-height: 50px;
+    padding: 1em;
+  }
+
+  .We-combine-interior-and-extrior
+  {
+  display: block;
+    padding-left: 25px;
+    padding-right: 15px;
+    font-size: 15px;
+}
+
+  
 }

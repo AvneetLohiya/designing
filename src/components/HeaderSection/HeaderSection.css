@@ -17,11 +17,15 @@
     /* width: 40rem; */
     font-size: 74px;
     text-align: justify;
-   
+
+
+    
     }
 .we-help-to-make-in-header-section
 {
   line-height: 5rem;
+  padding: 0px;
+  /* padding: 27px; */
 }
 
 .div-of-image-of-kitchen-living-room-study
@@ -76,7 +80,13 @@ padding-left: 12px;
     width: 19rem;
     font-size: 18px;
     border: none;
+
+
     
+
+
+    
+ 
     
 }
 
@@ -127,7 +137,7 @@ display: flex;
 .We-Help-to-Make-Modern-main-div{
     display: flex;
     gap: 4.7rem;
-    height: 37rem;
+    /* height: 37rem; */
   }
 
 
@@ -135,7 +145,7 @@ display: flex;
   .main-div-of-input-type-enter-your-email
 {
   background-color: seashell;
-  height: 105px; 
+  /* height: 105px;  */
   padding-bottom: 15px;
  
   /* display: flex; */
@@ -157,6 +167,13 @@ display: flex;
   background-color: white;
   border: none;
   padding-top: 12px;
+
+
+
+  
+
+
+  
 }
 
 .outer-border-of-start-button
@@ -167,6 +184,10 @@ display: flex;
   background-color: white;
   border: none;
   padding: .56rem;
+
+
+
+  
   
   
 }
@@ -218,15 +239,19 @@ background-color: seashell;
 
   .image-of-v-icon
   {
-    display: block;
-    padding-left: 0px;
+    width: 25px;
+    height: 25px;
+    padding-left: 35px;
+    justify-content: center;
+    padding-top: 15px;
     /* width: 100%; */
   }
 
   .We-combine-interior-and-extrior
   {
     display: block;
-    padding-left: 33px;
+    padding-left: 25px;
+    padding-right: 15px;
     font-size: 15px;
     
   }
@@ -234,6 +259,8 @@ background-color: seashell;
   .We-Help-to-Make-Modern-main-div
   {
     display: block;
+    height: auto;
+
   }
 
   .second-div-of-input-type-enter-your-email
@@ -250,7 +277,7 @@ background-color: seashell;
  .image-of-interior-of-home-decor-kitchen
  {
   width: 100%;
-  padding-top: 0px;
+  padding-top: 5rem;
   padding-bottom: 0px;
   padding-left: 0px;
 
@@ -271,10 +298,10 @@ background-color: seashell;
   padding-left: 0px;
  }
 
- .input-type-enter-your-email
+ /* .input-type-enter-your-email
  {
   width: 100%;
- }
+ } */
 
  
 
@@ -288,13 +315,20 @@ background-color: seashell;
  .main-div-of-input-type-enter-your-email
  {
   padding-bottom: 0px;
+  height: unset;
+ }
+
+ .v-icon-and-input-type
+ {
+  display: flex;
  }
 
  .outer-part-image-of-v-icon
  {
-  width: 100%;
+  /* width: 100%; */
 
   padding-top: 0px;
+  height: 60.5px;
  }
 
  .outer-border-of-start-button
