@@ -18,8 +18,8 @@ const LatestStory = () => {
               You Might Also Be Interested In..
             </h1>
 
-            <div className="main-div-of-LATEST-STORIES">
-              <div>
+            <div className="main-div-of-latest-stories">
+              <div className='div-for-giving-the-width-in-all-four-img'>
                 <div className="main-div-of-kitchen-and-dinning-area">
                   <div>
                     
@@ -36,7 +36,7 @@ const LatestStory = () => {
                     />
                   </div>
                 </div>
-                <div>
+                <div className='main-div-of-kitchen-and-dinning-area'>
                   <img
                     className="image-of-the-stair-case"
                     src="https://st.hzcdn.com/fimgs/pictures/staircases/soho-duplex-raad-studio-img~a671caea038cd1e4_2617-1-f58658b-w360-h360-b0-p0.jpg"
@@ -57,7 +57,7 @@ const LatestStory = () => {
                 </div>
                 <h4 className="LATEST-STORIES">LATEST STORIES</h4>
                 <div className="Premmium-Quality-And-Outstanding-Services">
-                  <p>
+                  <p className='div-of-premmium-quality-and-outstanding-for-padding'>
                     Premmium Quality And Outstanding <br /> Services
                   </p>
                   <button

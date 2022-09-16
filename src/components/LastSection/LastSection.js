@@ -17,7 +17,7 @@ const LastSection = () => {
          <div className="first-main-div-of-Get-notified-you-can">
             <div className="main-div-of-Get-notified-you-can">
               <div>
-                <div style={{ display: "flex" }}>
+                <div className='div-of-notifying-you-can-and-img-of-light' >
                   {" "}
                   <h1 className="Get-notified-you-can">
                     Get notified you can <br />

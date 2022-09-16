@@ -24,10 +24,11 @@ const ConnectingWith = () => {
             </div>
 
             <div className="icons-for-contact-us">
+            <div>
               <img
                 className="pay-icon"
                 src="https://cdn-icons-png.flaticon.com/512/5977/5977576.png"
-              />
+              /></div>
               <div className="pay-icon-BuzzFeed">
                 <h3>BuzzFeed</h3>
               </div>

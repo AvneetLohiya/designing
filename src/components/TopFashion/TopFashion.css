@@ -111,6 +111,7 @@ background-color: seashell;
     display: block;
     width: 100%;
     padding-left: 0px;
+    /* margin-left: 0; */
   }
   .image-of-interior-of-home-with-bathroom-accesories
   {
@@ -118,9 +119,10 @@ background-color: seashell;
   }
   .top-fashion-brands-in-the-world
   {
-    font-size: 40px;
+    font-size: 39px;
     line-height: 50px;
-    padding: 1em;
+    padding-bottom: 25px;
+    /* padding: 1em; */
   }
 
   .We-combine-interior-and-extrior

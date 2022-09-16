@@ -85,7 +85,7 @@ background-color: seashell;
 
 
 
-@media (min-width:320px) and (max-width:420)
+@media (min-width:320px) and (max-width:420px)
 {
   .width-div-for-decor
   {
@@ -95,4 +95,20 @@ background-color: seashell;
   {
     display: block;
   }
+
+  
+  .main-div-of-the-footer
+  {
+    display: block;
+    padding: 15px;
+    padding-top: 97px;
+  }
+
+  .icons-for-the-footer
+{
+  display: flex;
+  justify-content: left;
+  
+  gap: 24px;
+}
 }

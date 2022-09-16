@@ -22,6 +22,10 @@
   display: flex;
   /* gap: 15rem; */
 }
+.div-of-notifying-you-can-and-img-of-light
+{
+  display: flex;
+}
 .Get-notified-you-can
 {
   padding-left: 8rem;
@@ -132,7 +136,7 @@ background-color: seashell;
 
 
 
-@media (min-width:320px) and (max-width:420)
+@media (min-width:320px) and (max-width:420px)
 {
   .width-div-for-decor
   {
@@ -141,5 +145,65 @@ background-color: seashell;
   .main-div-of-header-section
   {
     display: block;
+  }
+
+  .first-div-of-the-input-type-enter-your-email-address
+  {
+    display: block;
+    padding-left: 0px;
+  }
+  .second-div-input-type-enter-your-email-address-Get-notified-you-can
+  {
+    display: block;
+    padding-top: 155px;
+    padding-left: 15px;
+  }
+  .main-div-of-Get-notified-you-can
+  {
+    display: block;
+  }
+  .input-type-enter-your-email-address
+  {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .outer-border-of-start-trial-button
+  {
+    display: block;
+    width: 100%;
+  }
+  .hanging-lights-in-get-notified
+  {
+    width: 100%;
+    padding-top: 0px;
+  }
+
+  .image-of-light-lamp
+  {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .button-start-trial
+  {
+    width: 100%;
+  }
+  .Get-notified-you-can
+  {
+    padding-left: 1rem;
+    margin-top: 0px;
+    background-color: rgb(163, 135, 140);
+    height: 6rem;
+    font-size: 32px;
+    text-align: justify;
+  }
+
+  .div-of-notifying-you-can-and-img-of-light
+  {
+    display: block;
+    padding-bottom: 38px;
+    padding-top: 30px;
   }
 }

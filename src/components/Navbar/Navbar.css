@@ -102,7 +102,7 @@ background-color: seashell;
 
 
 
-@media (min-width:320px) and (max-width:420)
+@media (min-width:320px) and (max-width:420px)
 {
   .width-div-for-decor
   {
@@ -112,4 +112,39 @@ background-color: seashell;
   {
     display: block;
   }
+
+
+  .container-in-nav-bar-items {
+    display: block;
+    /* justify-content: space-between; */
+    }
+
+
+    .nav-bar-items-content {
+      display: block;
+      
+    }
+
+
+     
+  .main-div-of-nav-bar-items-content
+  {
+    display: block;
+    
+  
+  }
+
+  .get-started-button {
+    display: block;
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .Interior-co-in-the-navbar
+  {
+    /* text-align: center; */
+    padding-top: 28px;
+  }
+
+
 }

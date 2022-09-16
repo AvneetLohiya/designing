@@ -19,11 +19,13 @@ const Navbar = () => {
               </div>
 
               <div className="main-div-of-nav-bar-items-content">
+             
                 <p className="nav-bar-items-content">Home</p>
                 <p className="nav-bar-items-content">About</p>
 
                 <p className="nav-bar-items-content">Favourltes</p>
                 <p className="nav-bar-items-content">Lifestyle</p>
+               
 
                 {/* this is the button for get start */}
                 <button className="get-started-button  " type="button">

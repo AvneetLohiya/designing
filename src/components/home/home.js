@@ -15,7 +15,7 @@ function Home() {
     
          <>
 
-          {/* <Navbar/> */}
+          <Navbar/>
           
           
      
@@ -23,10 +23,10 @@ function Home() {
           <ConnectingWith/>
           <TopFashion/>
           <HotDeals/>
-          {/* <LatestStory/> */}
-          {/* <BestServices/>
+          <LatestStory/>
+          <BestServices/>
           <LastSection/>
-          <Footer/> */}
+          <Footer/>
           
          
          

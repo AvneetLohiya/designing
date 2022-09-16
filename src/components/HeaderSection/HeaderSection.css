@@ -25,6 +25,7 @@
 {
   line-height: 5rem;
   padding: 0px;
+  font-size: 73px;
   /* padding: 27px; */
 }
 
@@ -101,6 +102,11 @@ justify-content: center;
 display: flex;
 
 }
+
+.v-icon-and-input-type
+ {
+  display: flex;
+ }
 .button-start
 {
     height: 46px;
@@ -146,7 +152,7 @@ display: flex;
 {
   background-color: seashell;
   /* height: 105px;  */
-  padding-bottom: 15px;
+  padding-bottom: 84px;
  
   /* display: flex; */
 }
@@ -155,7 +161,7 @@ display: flex;
 .second-div-of-input-type-enter-your-email
 {
   display: flex;
-  padding-top:109px;
+  padding-top: 31px;
   
 }
 
@@ -298,10 +304,10 @@ background-color: seashell;
   padding-left: 0px;
  }
 
- /* .input-type-enter-your-email
+ .input-type-enter-your-email
  {
   width: 100%;
- } */
+ }
 
  
 
@@ -310,6 +316,7 @@ background-color: seashell;
   line-height: 3rem;
     font-size: 35px;
     padding: 1em;
+    padding-top: 196px;
  }
 
  .main-div-of-input-type-enter-your-email
